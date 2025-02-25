@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,65 @@
 </head>
 <body>
     <a style="display: block; text-align: right;" href="/">На головну</a>
+    <h1>Лабораторна робота №3</h1>
     <table border="1">
         <tr>
-            <th colspan="4"> <img src="/Lab3_mylian/img/brain.gif" alt="">Мої одногрупники</th>
+            <img src="/Lab3_mylian/img/brain.gif" alt="">
+            <th colspan="4">Мої одногрупники</th>
         </tr>
         <tr>
-            <td><img src="/Lab3_mylian/img/1.jpg" alt=""></td>
-            <td><img src="/Lab3_mylian/img/2.jpg" alt=""></td>
-            <td><img src="/Lab3_mylian/img/3.jpg" alt=""></td>
-            <td><img src="/Lab3_mylian/img/4.jpg" alt=""></td>
+            <td>
+                <label>
+                    <input type="radio" name="bio" id="bio1">
+                    <img src="/Lab3_mylian/img/1.jpg" alt="">
+                    <span class="student-label">Мальованчук</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" name="bio" id="bio2">
+                    <img src="/Lab3_mylian/img/2.jpg" alt="">
+                    <span class="student-label">Мельник</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" name="bio" id="bio3">
+                    <img src="/Lab3_mylian/img/3.jpg" alt="">
+                    <span class="student-label">Момот</span>
+                </label>
+            </td>
+            <td>
+                <label>
+                    <input type="radio" name="bio" id="bio4">
+                    <img src="/Lab3_mylian/img/4.jpg" alt="">
+                    <span class="student-label">Назарійчук</span>
+                </label>
+            </td>
         </tr>
         <tr>
-            <td colspan="4">[Коротка біографія студентів]</td>
+            <td colspan="4">
+                <div class="bio bio1">Мальованчук Юліанна Тарасівна<br>Дата народження: 01.01.2007<br>Email: student1@example.com</div>
+                <div class="bio bio2">Мельник Юліана Михайлівна<br>Дата народження: 02.02.2007<br>Email: student2@example.com</div>
+                <div class="bio bio3">Момот Ангеліна Іванівна<br>Дата народження: 03.03.2007<br>Email: student3@example.com</div>
+                <div class="bio bio4">Назарійчук Максим Вікторович<br>Дата народження: 04.04.2007<br>Email: student4@example.com</div>
+            </td>
         </tr>
     </table>
+
+    <p>Містична народна пісня</p>
+    <audio controls>
+        <source src="/Lab3_mylian/audio.mp3" type="audio/mpeg">
+        Ваш браузер не підтримує аудіо.
+    </audio>
+    <br>
+    <a href="/Lab3_mylian/audio.mp3" download>Скачати аудіо</a>
+    <br>
+    <video controls width="320" height="240">
+        <source src="/Lab3_mylian/video.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+    </video>
+    <br>
+    <a href="/Lab3_mylian/video.mp4" download>Скачати відео</a>
 </body>
 </html>

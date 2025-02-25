@@ -31,5 +31,6 @@ def lab2_main():
 def lab3_main():
     return render_template('Lab3_mylian/lab3.html')
 
+
 if __name__ == '__main__':
     app.run(debug=True)  
