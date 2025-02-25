@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(255, 214, 138);
+    background-image: url('ramka.gif');
+    background-repeat: repeat-y;
+    background-position: left;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+h2 {
+    font-size: 16pt;
+    color: #0033FF;
+    font-family: Geneva, Arial;
+}
+h2.curs {
+    font-size: 18pt;
+    font-style: italic;
+    font-family: "Courier New", Courier, mono;
+    color: #46dcf9;
+}
+h2.normal {
+    font-size: 16pt;
+    font-style: normal;
+    color: #FF0000;
+}
+#bgmagenta {
+    text-indent: 20px;
+    background-color: #1166FF;
+    color: #FFFF00;
+}
+#fishka {
+    background-color: #CC99FF;
+    color: #3300FF;
+    font-family: serif;
+    font-size: 20pt;
+    font-style: oblique;
+}
+#bgyellow {
+    background-color: #FFFF00;
+    color: #0000FF;
+    font-family: Verdana, Arial;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.column {
+    padding: 10px;
+    border: 3px double red;
+    overflow: auto;
+    height: 120%;
+}
+.left {
+    width: 600px;
+    background: url('bg_menu.gif') center top fixed;
+}
+.right {
+    width: 400px;
+    background: url('bg_menu.gif') top fixed;
+}
+h4 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}

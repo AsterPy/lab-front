@@ -31,6 +31,14 @@ def lab2_main():
 def lab3_main():
     return render_template('Lab3_mylian/lab3.html')
 
+@app.route('/templates/Lab4_mylian/lab4.html')
+def lab4_main():
+    return render_template('Lab4_mylian/lab4.html')
+
+@app.route('/templates/Lab4_mylian/<filename>')
+def lab4_files(filename):
+    return render_template(f'Lab4_mylian/{filename}')
+
 
 if __name__ == '__main__':
     app.run(debug=True)  

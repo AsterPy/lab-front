@@ -1,0 +1,42 @@
+body {
+    padding-bottom:600px;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+.box {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+}
+.relative { background-color: #FFD700; left: 10%; }
+.absolute { background-color: #87CEFA; left: 30%; }
+.fixed { background-color: #98FB98; position: fixed; left: 20px; top: 20px; }
+.sticky { background-color: #FFA07A; position: sticky; top: 10px; }
+.float-container {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.float-left { float: left; background-color: #DA70D6; width: 45%; margin-right: 5%; }
+.float-right { float: right; background-color: #20B2AA; width: 45%; }
+.clearfix::after { content: ""; display: table; clear: both; }
+.z-container {
+    position: relative;
+    height: 200px;
+    margin-top: 50px;
+}
+.z-index1 { background-color: #FF4500; position: absolute; left: 20%; top: 20px; z-index: 1; }
+.z-index2 { background-color: #4169E1; position: absolute; left: 25%; top: 40px; z-index: 2; }
