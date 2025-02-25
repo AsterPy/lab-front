@@ -6,9 +6,9 @@ MarkupSafe==3.0.2
 itsdangerous==2.2.0
 click==8.1.8
 
-# WSGI сервери
+# WSGI сервер
 gunicorn==23.0.0
-uvicorn==0.34.0
+uvicorn==0.34.0.post1
 
 # Додаткові корисні інструменти для розробки
 python-dotenv==1.0.1
