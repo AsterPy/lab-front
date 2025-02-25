@@ -1,15 +1,5 @@
-# Flask та його основні залежності
-Flask==3.1.0
-Werkzeug==3.1.3
-Jinja2==3.1.5
-MarkupSafe==3.0.2
-itsdangerous==2.2.0
-click==8.1.8
+flask==3.0.1
 
-# WSGI сервер
-gunicorn==23.0.0
-uvicorn==0.34.0.post1
+gunicorn==19.9.0
 
-# Додаткові корисні інструменти для розробки
-python-dotenv==1.0.1
-Flask-Assets==2.1.0  # для кращої роботи зі статичними файлами
+uvicorn==0.27.0.post1
