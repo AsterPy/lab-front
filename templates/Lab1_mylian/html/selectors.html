@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селектори CSS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Lab1_mylian/style/style.css') }}">
+</head>
+<body>
+    <a style="display: block; text-align: right;" href="/templates/Lab1_mylian/lab1.html">На головну</a>
+    <!-- Братський селектор (X ~ Y) -->
+    <h2>Братський селектор (X ~ Y)</h2>
+    <ul>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+    </ul>
+    <p class="brother">Цей абзац є братом списку.</p>
+    <p>Цей абзац не є братом списку.</p>
+
+    <!-- Атрибутний селектор ([attribute]) -->
+    <h2>Атрибутний селектор ([attribute])</h2>
+    <a href="https://example.com" title="Посилання на example.com">Посилання з атрибутом title</a>
+    <a href="https://example.com">Посилання без атрибуту title</a><br>
+    <h3 style="margin-top: 100px;">пояснення атрибутів</h3>
+    <img src="/Lab1_mylian/image/Знімок екрана 2025-02-11 о 21.58.36.png" alt="" style="max-height: 700px;">
+</body>
+</html>

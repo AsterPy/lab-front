@@ -1,0 +1,125 @@
+body.body3{background-color:#79e2f5;}
+
+p.ex4{
+    color: #00ff00;
+}
+
+p.ex5{
+    color: #00ff00;
+    background-color:#ff0000;
+}
+   
+    
+body.body5{
+    background-image: url("/Lab1_mylian/image/pespatron.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 25%;
+}
+   
+p.ex6{font-family: Arial, Candara, Century-Gothic, sans-serif}
+
+h1.ex7{
+    font-family: Arial, Candara, Century-Gothic, sans-serif;
+    font-style: normal;
+}
+h2.ex7{
+    font-family: Times New Roman, Georgia, serif;
+    font-style: italic;
+}
+p.ex7{
+    font-family: Times New Roman, Georgia, serif;
+    font-style: oblique;
+}
+
+p.ex8{
+    font-family: Arial, Candara, Century-Gothic, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+   }
+
+p.ex9{
+    font-family: Arial, Candara, Century-Gothic, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600
+}
+
+h1.ex10{
+    font-family: Arial, Candara, Century-Gothic, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+}
+h2.ex10{
+    font-family: Times New Roman, Georgia, serif;
+    font-style: italic;
+    font-size: 100pt;
+}
+h3.ex10{
+    font-family: Times New Roman, Georgia, serif;
+    font-style: italic;
+    font-size: 120%;
+}
+p.ex10{
+   font-style: italic;
+   font-weight: bold;
+   font-size: 30px;
+   font-family: arial, sans-serif;
+}
+   
+
+
+/* Групування селекторів */
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 160%;
+    color: #000aff;
+}
+h2 {
+    font-size: 135%;
+    color: #aaaaaa;
+}
+
+/*  Універсальний селектор (*) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*  Дочірній селектор (X Y) */
+
+li a {
+    text-decoration: none;
+}
+
+/*  Сусідній селектор (X + Y) */
+
+ul + p {
+    color: red;
+}
+
+/*  Безпосередні дочірні селектор (X > Y) */
+
+div#container > ul {
+    border: 1px solid black;
+}
+
+/* Братський селектор (X ~ Y) */
+
+ul ~ p {
+    color: red;
+}
+
+/* Атрибутний селектор ([attribute]) */
+
+a[title] {
+    color: green;
+}
+
+/* Атрибутний селектор з частковим збігом ([attribute*=value]) */
+
+a[href*="everstudent"] {
+    color: #1f6053;
+}
