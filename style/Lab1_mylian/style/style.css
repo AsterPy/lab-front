@@ -68,7 +68,6 @@ p.ex10{
    
 
 
-/* Групування селекторів */
 h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -81,44 +80,37 @@ h2 {
     color: #aaaaaa;
 }
 
-/*  Універсальний селектор (*) */
 
 * {
     margin: 0;
     padding: 0;
 }
 
-/*  Дочірній селектор (X Y) */
 
 li a {
     text-decoration: none;
 }
 
-/*  Сусідній селектор (X + Y) */
 
 ul + p {
     color: red;
 }
 
-/*  Безпосередні дочірні селектор (X > Y) */
 
 div#container > ul {
     border: 1px solid black;
 }
 
-/* Братський селектор (X ~ Y) */
 
 ul ~ p {
     color: red;
 }
 
-/* Атрибутний селектор ([attribute]) */
 
 a[title] {
     color: green;
 }
 
-/* Атрибутний селектор з частковим збігом ([attribute*=value]) */
 
 a[href*="everstudent"] {
     color: #1f6053;

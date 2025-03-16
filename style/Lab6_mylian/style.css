@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    color: white;
+    text-align: center;
+}
+header {
+    padding: 20px;
+    font-size: 24px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    perspective: 1000px;
+}
+.zodiac {
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.zodiac-2d:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.zodiac-3d {
+    transform-style: preserve-3d;
+}
+.zodiac-3d:hover {
+    transform: scale(1.1) rotateY(15deg);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+footer {
+    margin-top: 20px;
+    padding: 10px;
+}
