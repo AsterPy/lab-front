@@ -1,0 +1,64 @@
+
+p::before {
+    content: "Початок: ";
+    color: blue;
+}
+
+p::after {
+    content: " - Кінець.";
+    color: green;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+p::first-line {
+    font-weight: bold;
+    color: rgb(151, 32, 170);
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+input[type="checkbox"]:checked {
+    outline: 2px solid green;
+}
+
+
+div:empty {
+    height: 20px;
+    border: 1px dashed red;
+}
+
+input:valid {
+    border: 2px solid var(--root-color);
+}
+
+:root {
+    --root-color: green;
+}
+
+
+input:invalid {
+    border: 2px solid red;
+}
+
+ul li:nth-last-child(2) {
+    color:  var(--root-color);
+    font-weight: bold;
+}

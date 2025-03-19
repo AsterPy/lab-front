@@ -3,11 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lab11</title>
     <link rel="stylesheet" href="/Lab11_mylian/style.css">
 </head>
 <body>
     <a style="display: block; text-align: right;" href="/">На головну</a>
-    11
+    <p>Стилі</p>
+    <a href="#">Лінк</a>
+    <div></div>
+    <h2>Псевдоклас :nth-last-child(n)</h2>
+    <ul>
+        <li>Перший елемент списку</li>
+        <li>Другий елемент списку</li>
+        <li>Третій елемент списку (передостанній)</li>
+        <li>Четвертий елемент списку</li>
+    </ul>
+    
+    <h1>Демонстрація веб-форм</h1>
+
+    <fieldset>
+        <legend>Однорядкове текстове поле</legend>
+        <label for="text-field">Введіть текст:</label>
+        <input type="text" id="text-field" placeholder="Текст">
+    </fieldset>
+
+    <fieldset>
+        <legend>Багаторядкова текстова область</legend>
+        <textarea rows="4" cols="50" placeholder="Введіть багаторядковий текст"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Типи input</legend>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+        <label for="range">Діапазон:</label>
+        <input type="range" id="range" min="0" max="100">
+    </fieldset>
+
+    <fieldset>
+        <legend>Радіокнопки</legend>
+        <input type="radio" id="option1" name="radio-group" value="Option 1" checked>
+        <label for="option1">Варіант 1</label><br>
+        <input type="radio" id="option2" name="radio-group" value="Option 2">
+        <label for="option2">Варіант 2</label><br>
+        <button type="submit">Відправити</button>
+    </fieldset>
+
+    <fieldset>
+        <legend>Прапорці</legend>
+        <input type="checkbox" id="check1" name="check1" value="Check 1">
+        <label for="check1">Варіант 1</label><br>
+        <input type="checkbox" id="check2" name="check2" value="Check 2">
+        <label for="check2">Варіант 2</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Випадаючий список</legend>
+        <select>
+            <optgroup label="Група 1">
+                <option value="1">Елемент 1</option>
+                <option value="2">Елемент 2</option>
+            </optgroup>
+            <optgroup label="Група 2">
+                <option value="3">Елемент 3</option>
+            </optgroup>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Список множинного вибору</legend>
+        <select multiple>
+            <option value="1">Елемент 1</option>
+            <option value="2">Елемент 2</option>
+            <option value="3">Елемент 3</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Кнопка скидання</legend>
+        <input type="reset" value="Очистити форму">
+    </fieldset>
+
+    <fieldset>
+        <legend>Нейтральна кнопка</legend>
+        <input type="button" value="Натисни мене!" onclick="alert('Ти натиснув кнопку!')">
+    </fieldset>
 </body>
 </html>
