@@ -55,6 +55,21 @@ def lab7_main():
 def lab8_main():
     return render_template('Lab8_mylian/lab8.html')
 
+@app.route('/templates/Lab9_mylian/lab9.html')
+def lab9_main():
+    return render_template('Lab9_mylian/lab9.html')
+
+@app.route('/templates/Lab10_mylian/lab10.html')
+def lab10_main():
+    return render_template('Lab10_mylian/lab10.html')
+
+@app.route('/templates/Lab11_mylian/lab11.html')
+def lab11_main():
+    return render_template('Lab11_mylian/lab11.html')
+
+@app.route('/templates/Lab12_mylian/lab12.html')
+def lab12_main():
+    return render_template('Lab12_mylian/lab12.html')
 
 if __name__ == '__main__':
     app.run(debug=True)  

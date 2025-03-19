@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Lab10_mylian/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <a style="display: block; text-align: right;" href="/">На головну</a> -->
+    <header class="d-flex flex-column justify-content-between vh-100" id="main">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#main">Головна</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#to">Товари</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ac">Акції</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">Контакти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       <div class="container" style="margin-top: 80px;">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 col-12">
+                    <h1 class="fw-bold" style="font-size: 8vw;">МЕБЛЕВИЙ ДІМ  ↴</h1>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12" style="opacity: 70%;">
+                    <p> – це інтернет-магазин стильних і якісних меблів для дому та офісу. Ми пропонуємо широкий вибір диванів, ліжок, шаф, столів та інших меблів, які поєднують комфорт, сучасний дизайн та доступні ціни. Наші товари допоможуть вам створити затишок у будь-якому приміщенні.</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-12" style="opacity: 40%;">
+                    <p>Наші товари допоможуть вам створити затишок у будь-якому приміщенні.</p>
+                </div>
+            </div>
+       </div>
+       <img class="img-fluid" src="/Lab10_mylian/mainimg.png" alt="">
+    </header>
+    <section class="container" id="to">
+        <h1 class="fw-bold mt-5">- ТОВАРИ</h1>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 p-2">
+                <div class="card border-0 rounded-0" style="background-color: #F3F3F3;">
+                    <img src="/Lab10_mylian/t1.png" class="card-img-top rounded-0" alt="Стіл 'Практик'">
+                    <div class="card-body">
+                        <p><span class="fw-bold">Стіл "Практик"</span> – Міцний дерев'яний стіл для роботи чи навчання.</p>
+                        <button type="button" class="btn btn-dark w-100 rounded-0"  data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Дізнатись більше</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-2">
+                <div class="card border-0 rounded-0" style="background-color: #F3F3F3;">
+                    <img src="/Lab10_mylian/t2.png" class="card-img-top rounded-0" alt="Тумба 'Лофт'">
+                    <div class="card-body">
+                        <p><span class="fw-bold">Тумба "Лофт"</span> – Мінімалістичний стиль, чудово доповнює інтер’єр.</p>
+                        <button class="btn btn-dark w-100 rounded-0">Дізнатись більше</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 p-2">
+                <div class="card border-0 rounded-0" style="background-color: #F3F3F3;">
+                    <img src="/Lab10_mylian/t3.png" class="card-img-top rounded-0" alt="Диван 'Комфорт'">
+                    <div class="card-body">
+                        <p><span class="fw-bold">Диван "Комфорт"</span> – Стильний і зручний, ідеальний для вітальні.</p>
+                        <button class="btn btn-dark w-100 rounded-0">Дізнатись більше</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="exampleModalCenterTitle">Стіл "Практик"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column flex-md-row">
+                    <div class="col-12 col-md-6">
+                        <img src="/Lab10_mylian/t1.png" class="img-fluid rounded-0 h-100" alt="Міцний дерев'яний стіл">
+                    </div>
+                    <div class="col-12 col-md-6 p-4" style="background-color: #F3F3F3;">
+                        <h2 class="fw-bold">Міцний дерев'яний стіл</h2>
+                        <p class="text-muted">Ідеальне рішення для роботи та навчання</p>
+            
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>Матеріал:</strong> Натуральне дерево (дуб, бук, сосна)</li>
+                            <li class="list-group-item"><strong>Розміри:</strong> 120 x 60 x 75 см</li>
+                            <li class="list-group-item"><strong>Стільниця:</strong> Захищена екологічним лаком</li>
+                            <li class="list-group-item"><strong>Максимальне навантаження:</strong> 100 кг</li>
+                            <li class="list-group-item"><strong>Дизайн:</strong> Мінімалістичний, універсальний</li>
+                        </ul>
+            
+                        <h3 class="text-danger mt-3">Ціна: $250</h3>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary rounded-0" data-bs-dismiss="modal">Закрити</button>
+                    <button type="button" class="btn btn-dark rounded-0">Оформити замовлення</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section class="container mt-5" id="ac">
+        <h1 class="fw-bold my-5">- АКЦІЇ</h1>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row g-0">
+                        <div class="col-12 col-md-8">
+                            <img src="/Lab10_mylian/carusel1.png" class="d-block w-100" alt="Диван">
+                        </div>
+                        <div class="col-12 col-md-4 d-flex flex-column justify-content-between p-4" style="background-color: #F3F3F3;">
+                            <h3>Диван "Комфорт"</h3>
+                            <p>Створіть затишок у своєму домі з диваном "Комфорт"! М'яке наповнення, міцний каркас та сучасний дизайн роблять його ідеальним вибором для вітальні. Розкладається у зручне спальне місце.</p>
+                            <p class="text-danger fs-4">-40%</p>
+                            <ul class="list-unstyled">
+                                <li>✔ Безкоштовна доставка</li>
+                                <li>✔ Гарантія 24 місяці</li>
+                                <li>✔ Доступно в 3 кольорах</li>
+                            </ul>
+                            <p class="text-decoration-line-through text-muted">3000$</p>
+                            <p class="text-success fs-3">1700$</p>
+                            <button class="btn btn-outline-dark rounded-0">Дізнатись більше</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-0">
+                        <div class="col-12 col-md-8">
+                            <img src="/Lab10_mylian/carusel3.png" class="d-block w-100" alt="Диван">
+                        </div>
+                        <div class="col-12 col-md-4 d-flex flex-column justify-content-between p-4" style="background-color: #F3F3F3;">
+                            <h3>Диван "Люкс"</h3>
+                            <p>Стильний диван "Люкс" з преміальними матеріалами. Комфорт і вишуканість у кожній деталі.</p>
+                            <p class="text-danger fs-4">-30%</p>
+                            <ul class="list-unstyled">
+                                <li>✔ Безкоштовна доставка</li>
+                                <li>✔ Гарантія 36 місяців</li>
+                                <li>✔ Доступно в 4 кольорах</li>
+                            </ul>
+                            <p class="text-decoration-line-through text-muted">4000$</p>
+                            <p class="text-success fs-3">2800$</p>
+                            <button class="btn btn-outline-dark rounded-0">Дізнатись більше</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-0">
+                        <div class="col-12 col-md-8">
+                            <img src="/Lab10_mylian/carusel2.png" class="d-block w-100" alt="Диван">
+                        </div>
+                        <div class="col-12 col-md-4 d-flex flex-column justify-content-between p-4" style="background-color: #F3F3F3;">
+                            <h3>Диван "Базований"</h3>
+                            <p>Базований диван "Базований" з преміальними матеріалами. Комфорт і вишуканість у кожній деталі. Базований підійде усюди де тільки не поставити.</p>
+                            <p class="text-danger fs-4">-30%</p>
+                            <ul class="list-unstyled">
+                                <li>✔ Безкоштовна доставка</li>
+                                <li>✔ Гарантія 16 місяців</li>
+                                <li>✔ Доступно в 8 кольорах</li>
+                            </ul>
+                            <p class="text-decoration-line-through text-muted">4000$</p>
+                            <p class="text-success fs-3">2800$</p>
+                            <button class="btn btn-outline-dark rounded-0">Дізнатись більше</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </section>
+    <footer class="container my-5" id="footer">
+        <hr>
+        <div class="row mt-5">
+            <div class="col-md-5">
+                <div class="p-5" style="background-color: #F3F3F3;">
+                    <h3 class="fw-bold mb-4">Щось цікавить?</h3>
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" class="form-control rounded-0 opacity-50" placeholder="Ім'я">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control rounded-0 opacity-50" placeholder="Email">
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control rounded-0 opacity-50" rows="4" placeholder="Коментар"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100 rounded-0">Надіслати</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="p-4 mb-4" style="background-color: #F3F3F3;">
+                    <p class="mb-2">Отримайте на пошту першими інформацію про нові акції та товари</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control rounded-0 opacity-50" placeholder="Email">
+                        <button class="btn btn-dark rounded-0">Підписатися</button>
+                    </div>
+                </div>
+                <p><strong>Адреса:</strong> м. Київ, вул. Меблева, 10</p>
+                <p><strong>Телефон:</strong> +38 (067) 123-45-67</p>
+                <p><strong>Email:</strong> support@mebledim.ua</p>
+                <p><strong>Графік роботи:</strong> Пн-Пт: 9:00 – 18:00, Сб-Нд: 10:00 – 16:00</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

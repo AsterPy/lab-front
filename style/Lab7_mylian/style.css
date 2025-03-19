@@ -9,19 +9,19 @@ body {
 }
 
 
-.header {
+header {
     height: 100vh;
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid rgb(233, 233, 233);
 }
 
-.header img {
+header img {
     border-radius: 20px;
     margin-bottom: 20px;
 }
 
-.header h1 {
+header h1 {
     margin-bottom: 20px;
 }
 .sidebar {
@@ -116,7 +116,7 @@ body {
     vertical-align: top;
 }
 
-.footer {
+footer {
     padding: 20px;
     text-align: center;
     border-top:  2px solid rgb(233, 233, 233);

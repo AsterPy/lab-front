@@ -9,9 +9,7 @@ body {
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 20px; 
+    display: flex;
     padding: 20px;
 }
 
@@ -34,9 +32,7 @@ header img {
 }
 
 .mainbar {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    gap: 20px;
+    padding: 20px;
 }
 
 .main-top {
@@ -47,67 +43,86 @@ header img {
 }
 
 .main-bootom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    margin-top: 20px;
 }
 
-.section-3-1, .section-3-2, .section-4 {
+.section-3 {
+    max-width: 48%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-3-1 {
     background-color: rgb(235, 235, 235);
     padding: 30px;
     text-align: start;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
+} 
+
+.section-3-2 {
+    background-color: rgb(235, 235, 235);
+    padding: 30px;
+    text-align: start;
+    border-radius: 20px;
+}
+
+.section-4 {
+    background-color: rgb(235, 235, 235);
+    padding: 30px;
+    text-align: start;
+    border-radius: 20px;
 }
 
 footer {
-    grid-column: span 2; 
     text-align: center;
     padding: 20px;
     border-top: 2px solid rgb(233, 233, 233);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     header img {
         max-width: 700px;
     }
 
     .main {
-        grid-template-columns: 1fr; 
+        display: flex;
+        flex-direction: column;
     }
 
     header {
         height: auto;
     }
 
+    .section-3 {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .section-4 {
+        margin-top: 20px;
+    }
+
     .sidebar {
         border-right: none; 
     }
+    
+    .mainbar {
+        padding: 0;
+    }
 
     .main-bootom {
-        grid-template-columns: 1fr; 
+        display: flex;
+        flex-direction: column; 
     }
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 408px) {
     header img {
-        max-width: 400px;
-    }
-
-    body {
-        font-size: 14px; 
-    }
-
-    header, footer {
-        padding: 10px; 
-    }
-
-    .main {
-        padding: 10px; 
-    }
-
-    .main-top, .section-3-1, .section-3-2, .section-4 {
-        padding: 20px; 
+        max-width: 300px;
     }
 }
