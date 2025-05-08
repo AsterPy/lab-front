@@ -13,7 +13,7 @@ p.ex5{
 body.body5{
     background-image: url("/Lab1_mylian/image/pespatron.jpg");
     background-repeat: no-repeat;
-    background-position: 100% 25%;
+    background-position: 100% 10%;
 }
    
 p.ex6{font-family: Arial, Candara, Century-Gothic, sans-serif}
@@ -103,7 +103,7 @@ div#container > ul {
 
 
 ul ~ p {
-    color: red;
+    color: rgb(0, 255, 106);
 }
 
 

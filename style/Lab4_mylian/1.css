@@ -5,6 +5,11 @@ body {
     background-position: left;
     font-family: Arial, sans-serif;
 }
+
+.con {
+    margin-left: 50px;
+}
+
 h1 {
     text-align: center;
     font-weight: bold;
